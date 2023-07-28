@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,900&display=swap');
+
+
+.bg{
+background-image:  linear-gradient(to bottom, rgba(253, 226, 167, 0.5), #ffd580), url("./Assets/Images/Baseball-bro\ \(1\).svg");
+
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    background-position: top;
+}
+.icon-text{
+    color:#253238;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.8vh;
+    display: block;
+    font-weight: 700;
+    line-height: 1.8vh;
+    margin:0 4px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.heading{
+    color:#253238;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11vmin;
+    display: block;
+    font-weight: 900;
+    line-height: 1.1;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.descreption{
+    color:#253238;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 4vmin; 
+    font-weight: 500;
+}
+
+.appinfo{
+    color:rgb(37,50,56,0.9);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2vh; 
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.masked {
+    background-color: rgb(15, 21, 24,0.4);
+    cursor: not-allowed;
   }
-}
+ 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
