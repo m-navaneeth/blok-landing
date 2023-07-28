@@ -12,7 +12,7 @@ import './App.css';
 function App() {
   return (
     <div className='bg-[#ffd580]  min-h-[100vh] w-full pb-10'>
-      <div className='min-h-[100%] w-full bg relative  '>
+      <div className='min-h-[100%] w-full bg relative  lg:bg-bottom bg-top'>
 
         <div className='bg-transparent pl-4 pt-4'>
           <div className='w-24 '>
@@ -25,12 +25,12 @@ function App() {
           <span className='heading '>Hassle Less</span>
         </h1>
 
-        <div className='w-[80%] static mx-auto lg:w-[35vmax] lg:absolute lg:bottom-[10%] lg:right-[5%] '>
+        <div className='w-[80%] static mx-auto lg:w-[30%] lg:absolute lg:bottom-[10%] lg:right-[5%] '>
           <img src={people} alt="dfdf" />
         </div>
 
 
-        <div className='descreption  lg:w-[50%] lg:ml-7 mx-2 font-semibold mt-10'>
+        <div className='descreption  lg:w-[50%] lg:ml-7 mx-2 mt-10 font-semibold lg:font-medium'>
           <p>Your All-in-One Court Booking Solution - Unlock the Joy of Sports with Effortless Reservations! </p>
         </div>
 
@@ -45,11 +45,11 @@ function App() {
           </div>
         </div>
 
-
-        <div className="w-[80%]  lg:w-[40%] xl:w-[30%] ml-7  border-2 border-[rgb(37,50,56,0.3)] rounded-3xl mt-14 ">
+{/*border-2 border-[rgb(37,50,56,0.3)] rounded-3xl*/}
+        <div className="w-[80%]  lg:w-[40%] xl:w-[30%] lg:ml-20 mx-auto  mt-14 ">
 
           <h2 className='appinfo'>Coming Sooon!!!</h2>
-          <div className='masked p-2 m-5 rounded-3xl  '>
+          <div className='masked p-2  mt-3 rounded-3xl  '>
 
             <div className='flex justify-center'>
               <LockFilled style={{ "color": "#253238", "fontSize": "20px" }} />
