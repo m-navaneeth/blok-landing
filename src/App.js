@@ -36,11 +36,11 @@ function App() {
 
         <div className='w-[90%] lg:w-[40%] flex justify-around items-center ml-7 mt-10'>
           <div className='flex items-center'>
-            <img src={icon1} className='w-[4.5rem]' />
+            <img src={icon1} className='w-[4.5rem]' alt=""/>
             <p className='icon-text'>Play with players around you</p>
           </div>
           <div className='flex items-center'>
-            <img src={icon2} className='w-[4.5rem]' />
+            <img src={icon2} className='w-[4.5rem]' alt="" />
             <p className='icon-text'>Book sports venues nearby</p>
           </div>
         </div>
